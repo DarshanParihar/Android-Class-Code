@@ -1,0 +1,11 @@
+package com.example.databaseexample;
+
+public class DatabaseHelper {
+	
+	public static final String DATABASE_NAME="student.db";
+	public static final String DATABASE_NAME="student.db";
+	public static final String DATABASE_NAME="student.db";
+	public static final String DATABASE_NAME="student.db";
+	
+
+}

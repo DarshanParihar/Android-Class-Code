@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListviewDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_title">My Button</string>
+
+    <string-array name="cities">
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>Banglore</item>
+        <item>Hyderabad</item>
+    </string-array>
+
+</resources>

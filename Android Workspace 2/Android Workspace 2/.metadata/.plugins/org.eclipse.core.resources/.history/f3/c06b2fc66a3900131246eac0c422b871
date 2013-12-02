@@ -1,0 +1,84 @@
+package com.example.contactdatabaseexample;
+
+import java.util.ArrayList;
+
+import android.app.ListActivity;
+import android.database.Cursor;
+import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.AdapterView.OnItemClickListener;
+
+public class MainActivity extends ListActivity implements OnItemClickListener {
+
+	private ArrayAdapter<String> contactsAdapter;
+	private ArrayList<String> ids;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		// setContentView(R.layout.activity_main);
+
+		// Cursor cursor = getContentResolver().query(
+		// ContactsContract.Contacts.CONTENT_URI,
+		// null,
+		// ContactsContract.Contacts.HAS_PHONE_NUMBER + " =? AND "
+		// + ContactsContract.Contacts.DISPLAY_NAME + " =?",
+		// new String[] { String.valueOf(0), "Akshar" },
+		// ContactsContract.Contacts.DISPLAY_NAME + " ASC");
+
+		contactsAdapter = new ArrayAdapter<String>(this,
+				android.R.layout.simple_list_item_1);
+		getListView().setAdapter(contactsAdapter);
+		getListView().setOnItemClickListener(this);
+
+		ids = new ArrayList<String>();
+
+		Cursor cursor = getContentResolver().query(
+				ContactsContract.Contacts.CONTENT_URI, null,
+				ContactsContract.Contacts.HAS_PHONE_NUMBER + " =?",
+				new String[] { String.valueOf(1) },
+				ContactsContract.Contacts.DISPLAY_NAME + " ASC");
+
+		if (cursor != null && cursor.moveToFirst()) {
+			do {
+				String contactName = cursor
+						.getString(cursor
+								.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));
+				String contactId = cursor
+						.getString(cursor
+								.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));
+				ids.add(object)
+				contactsAdapter.add(contactName);
+			} while (cursor.moveToNext());
+		}
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> adapterView, View view,
+			int position, long id) {
+		ArrayAdapter<String> phoneAdapter = new ArrayAdapter<String>(this,
+				android.R.layout.simple_list_item_1);
+		Cursor cursor = getContentResolver().query(
+				ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null,
+				ContactsContract.CommonDataKinds.Phone.CONTACT_ID + " =?",
+				new String[] { String.valueOf(id) }, null);
+
+		if (cursor != null && cursor.moveToFirst()) {
+			do {
+				String contactNumber = cursor
+						.getString(cursor
+								.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DATA));
+
+				phoneAdapter.add(contactNumber);
+				Log.i("vipul", "Phone number is " + contactNumber);
+			} while (cursor.moveToNext());
+
+			getListView().setAdapter(phoneAdapter);
+		}
+
+	}
+}

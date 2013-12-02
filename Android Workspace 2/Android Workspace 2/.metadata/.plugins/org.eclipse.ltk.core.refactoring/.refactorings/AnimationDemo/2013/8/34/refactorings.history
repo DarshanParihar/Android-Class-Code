@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;Alpha Animation&apos; into R.string.alpha_animation" description="Extracts string &apos;Alpha Animation&apos; into R.string.alpha_animation" file="/AnimationDemo/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/AnimationDemo" rplc-all-java="false" rplc-all-xml="false" sel-end="700" sel-start="671" stamp="1377349607178" tok-esc="Alpha Animation" xml-attr-name="android:text"/>
+</session>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/startTrackingCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Start Tracking Call" />
+
+    <Button
+        android:id="@+id/stopTrackingCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Stop Tracking Call" />
+
+    <Button
+        android:id="@+id/startTrackingSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Start Tracking SMS" />
+
+    <Button
+        android:id="@+id/stopTrackingSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Stop Tracking SMS" />
+
+    <Button
+        android:id="@+id/startTrackingCustomBroadcast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Tracking Custom Broadcast" />
+
+    <Button
+        android:id="@+id/stopTrackingCustomBroadcast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Tracking Custom Broadcast" />
+    
+    <Button
+        android:id="@+id/sendCustomBroadcast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="send Custom Broadcast" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+package com.example.databaseexample;
+
+public class DatabaseHelper {
+
+	public static final String DATABASE_NAME = "student.db";
+	public static final String TABEL_NAME = "student";
+	public static final String COLUMN_ID = "_id";
+	public static final String COLUMN_NAME = "name";
+	public static final String COLUMN_AGE = "age";
+	public static final String COLUMN_LOCATION = "location";
+	private static final String TABLE_CREATION_QUERY
+	
+	
+	 // TODO DO THIS CODE AFTER HOLIDAY
+	 
+
+}

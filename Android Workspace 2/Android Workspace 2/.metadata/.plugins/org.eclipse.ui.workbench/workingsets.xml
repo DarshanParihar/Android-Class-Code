@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1377349824933_7" label="Sanket_Workspace" name="Sanket_Workspace">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ParecelableDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AlertDialogDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TwoPageApplication" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AnimationDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/IntentActionDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AndroidFileSystem" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/VideoViewDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SeekbarRatingbarDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CameraDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MenuDemos" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ProgressDialogDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AudioManagerDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CustomListView" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MediaPlayerDemo" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1377349876588_9" label="Bhavik_Workspace" name="Bhavik_Workspace">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CheckboxRadiobuttonDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ListviewDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DatePickerDialogSpinnerDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Layout_Demo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AutoCompleteDemo" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1379758041335_11" label="Darshan_Hiren" name="Darshan_Hiren">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LayoutDemo" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1376062095228_0" label="Window Working Set" name="Aggregate for window 1376062095228"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1376062197257_1" label="Window Working Set" name="Aggregate for window 1376062197256"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1376193778005_2" label="Window Working Set" name="Aggregate for window 1376193778005"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1376802043044_3" label="Window Working Set" name="Aggregate for window 1376802043043"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1376802438805_4" label="Window Working Set" name="Aggregate for window 1376802438805"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1377344368756_5" label="Window Working Set" name="Aggregate for window 1377344368755"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1377347144189_6" label="Window Working Set" name="Aggregate for window 1377347144189"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1377411376093_10" label="Window Working Set" name="Aggregate for window 1377411376093"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1379836986428_12" label="Window Working Set" name="Aggregate for window 1379836986428"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1380337145144_13" label="Window Working Set" name="Aggregate for window 1380337145144"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1380344501633_14" label="Window Working Set" name="Aggregate for window 1380344501633"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1380352449357_15" label="Window Working Set" name="Aggregate for window 1380352449357"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1380422974012_16" label="Window Working Set" name="Aggregate for window 1380422974012"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1380430410500_17" label="Window Working Set" name="Aggregate for window 1380430410500"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1380443478399_18" label="Window Working Set" name="Aggregate for window 1380443478398"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1380689827988_19" label="Window Working Set" name="Aggregate for window 1380689827988"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1380953224857_20" label="Window Working Set" name="Aggregate for window 1380953224857"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381031744147_23" label="Window Working Set" name="Aggregate for window 1381031744147"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381044215973_23" label="Window Working Set" name="Aggregate for window 1381044215973"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381045721256_24" label="Window Working Set" name="Aggregate for window 1381045721256"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381046962210_21" label="Window Working Set" name="Aggregate for window 1381046962210"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381559839557_25" label="Window Working Set" name="Aggregate for window 1381559839557"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381572289772_26" label="Window Working Set" name="Aggregate for window 1381572289772"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381574217065_27" label="Window Working Set" name="Aggregate for window 1381574217065"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381579902788_28" label="Window Working Set" name="Aggregate for window 1381579902788"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381631931951_29" label="Window Working Set" name="Aggregate for window 1381631931951"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381640019018_30" label="Window Working Set" name="Aggregate for window 1381640019018"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1381653563403_31" label="Window Working Set" name="Aggregate for window 1381653563403"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1382259403256_32" label="Window Working Set" name="Aggregate for window 1382259403256"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1382457482193_33" label="Window Working Set" name="Aggregate for window 1382457482193"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1382461541459_34" label="Window Working Set" name="Aggregate for window 1382461541459"/>
+</workingSetManager>

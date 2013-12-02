@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CustomToastDemo/res/drawable/androidV2.png&apos; to &apos;android.png&apos;" description="Rename resource &apos;androidV2.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/drawable/androidV2.png" name="android.png" stamp="1381645100502" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MainActivity.java&apos; to &apos;ParcelableDemo/src/com.example.parcelabledemo&apos;&#x0A;- Original project: &apos;ParcelableDemo&apos;&#x0A;- Destination element: &apos;ParcelableDemo/src/com.example.parcelabledemo&apos;&#x0A;- Original element: &apos;com.example.parcelabledemo.MainActivity.java&apos;" description="Copy compilation unit" destination="/src&lt;com.example.parcelabledemo" element1="/src&lt;com.example.parcelabledemo{MainActivity.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1380953446962" units="1" version="1.0"/>
+</session>

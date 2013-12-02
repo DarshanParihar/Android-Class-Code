@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MainActivity.java&apos; to &apos;AlarmManager/src/com.example.alarmmanager&apos;&#x0A;- Original project: &apos;AlarmManager&apos;&#x0A;- Destination element: &apos;AlarmManager/src/com.example.alarmmanager&apos;&#x0A;- Original element: &apos;com.example.alarmmanager.MainActivity.java&apos;" description="Copy compilation unit" destination="/src&lt;com.example.alarmmanager" element1="/src&lt;com.example.alarmmanager{MainActivity.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1380445901511" units="1" version="1.0"/>
+</session>

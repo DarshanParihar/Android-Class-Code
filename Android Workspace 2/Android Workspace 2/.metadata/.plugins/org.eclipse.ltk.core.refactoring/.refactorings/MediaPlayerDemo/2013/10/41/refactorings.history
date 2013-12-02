@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;Pause&apos; into R.string.pause" description="Extracts string &apos;Pause&apos; into R.string.pause" file="/MediaPlayerDemo/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/MediaPlayerDemo" rplc-all-java="false" rplc-all-xml="false" sel-end="1168" sel-start="1149" stamp="1381574797850" tok-esc="Pause" xml-attr-name="android:text"/>
+</session>

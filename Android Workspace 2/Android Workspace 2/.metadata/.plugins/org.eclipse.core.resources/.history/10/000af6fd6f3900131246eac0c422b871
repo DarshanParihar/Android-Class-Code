@@ -1,0 +1,23 @@
+package com.example.databasedemos;
+
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class DatabaseHelper {
+	public static final String DATABASE_NAME = "student.db";
+	private static final int DATABASE_VERSION = 1;
+	public static final String TABLE_NAME = "stu";
+	public static final String COLUMN_ID = "_id";
+	public static final String COLUMN_NAME = "name";
+	public static final String COLUMN_AGE = "age";
+	public static final String COLUMN_LOCATION = "location";
+	private static final String TABLE_CREATION_QUERY = "CREATE TABLE "
+			+ TABLE_NAME + " ( " + COLUMN_ID
+			+ " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_NAME
+			+ " TEXT NOT NULL, " + COLUMN_AGE + " TEXT NOT NULL,"
+			+ COLUMN_LOCATION + " TEXT NOT NULL );";
+
+	class sqliteHelper extends SQLiteOpenHelper {
+
+	}
+
+}

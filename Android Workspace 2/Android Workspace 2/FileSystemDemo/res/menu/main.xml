@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/create"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always|withText"
+        android:title="Create"/>
+    <item
+        android:id="@+id/view"
+        android:icon="@android:drawable/ic_menu_view"
+        android:showAsAction="always|withText"
+        android:title="View"/>
+    <item
+        android:id="@+id/delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="always|withText"
+        android:title="Delete"/>
+
+</menu>

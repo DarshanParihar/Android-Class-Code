@@ -1,0 +1,15 @@
+package com.example.loaderexample;
+
+import android.os.Bundle;
+import android.support.v4.app.ListFragment;
+import android.support.v4.app.LoaderManager.LoaderCallbacks;
+
+public class ContactsFragment extends ListFragment implements LoaderCallbacks<Cursor> {
+
+	@Override
+	public void onActivityCreated(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onActivityCreated(savedInstanceState);
+	}
+
+}

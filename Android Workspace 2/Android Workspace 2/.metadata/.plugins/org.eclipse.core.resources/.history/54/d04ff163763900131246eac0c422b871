@@ -1,0 +1,52 @@
+package com.example.loaderexample;
+
+import java.util.ArrayList;
+
+import android.app.ListActivity;
+import android.database.Cursor;
+import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.support.v4.app.LoaderManager.LoaderCallbacks;
+import android.support.v4.content.Loader;
+import android.support.v4.widget.SimpleCursorAdapter;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+
+public class MainActivity extends ListActivity implements
+		LoaderCallbacks<Cursor> {
+
+	private SimpleCursorAdapter simpleCursorAdapter;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		simpleCursorAdapter = new SimpleCursorAdapter(this,
+				android.R.layout.simple_list_item_1, null,
+				new String[] { ContactsContract.Contacts.DISPLAY_NAME },
+				new int[] { android.R.id.text1 }, 0);
+
+		getListView().setAdapter(simpleCursorAdapter);
+	}
+
+	@Override
+	public Loader<Cursor> onCreateLoader(int id, Bundle bundle) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onLoaderReset(Loader<Cursor> loader) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
